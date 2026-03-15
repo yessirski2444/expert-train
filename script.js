@@ -13,7 +13,7 @@ const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(container.clientWidth, container.clientHeight);
 container.appendChild(renderer.domElement);
 
-// CSS2D Renderer for text bubbles
+// CSS2D Renderer for floating text
 const labelRenderer = new THREE.CSS2DRenderer();
 labelRenderer.setSize(container.clientWidth, container.clientHeight);
 labelRenderer.domElement.style.position = 'absolute';
