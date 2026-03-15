@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>3D Hyper-Realistic Town Simulation</title>
+<title>3D Hyper-Realistic Simulated Town</title>
 <style>
   body { margin: 0; overflow: hidden; }
   #town { width: 100vw; height: 100vh; display: block; }
@@ -23,9 +23,13 @@
 <body>
 <div id="town"></div>
 
-<!-- Three.js + GLTFLoader + CSS2DRenderer -->
+<!-- Three.js + CSS2DRenderer -->
 <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/renderers/CSS2DRenderer.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
 <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/renderers/CSS2DRenderer.js"></script>
 
 <script src="script.js"></script>
